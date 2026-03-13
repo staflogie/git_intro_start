@@ -5,6 +5,7 @@ int buttonState = 0;
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
+  # test1
 }
 
 void loop() {
@@ -15,4 +16,5 @@ void loop() {
   } else {
     digitalWrite(ledPin, LOW);
   }
+  # test2
 }
